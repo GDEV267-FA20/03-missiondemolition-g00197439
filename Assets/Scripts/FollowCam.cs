@@ -20,7 +20,7 @@ public class FollowCam : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (POI = null) return; // Return if theres is no poi
+        if (POI == null) return; // Return if theres is no poi
 
         //Get the position of poi
         Vector3 destination = POI.transform.position;
